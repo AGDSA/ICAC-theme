@@ -17,16 +17,16 @@ $slicer-breakpoints: 0 480px 791px 960px 1120px 1350px 1800px;
 $slicer-breakpoint-names: 'mobile' 'tablet-p' 'tablet-l' 'desktop''desktop-mid' 'desktop-xl';
 $slicer-anti-overlap-corrections: 1px !default;
 
-/* Colors */
-$primary-color: #002056;
-$primary-color-lighter: #143f88;
-$secondary-color: #c6003c;
+/* ICAC Colors */
+$primary-color: #009444; 
+$primary-color-lighter: #009444;
+$secondary-color: #666666;
 $primary-gray: #e4e4e3;
 $primary-gray-text: #818285;
 $darker-gray-text: #6f6f6f;
 $light-bg-color: #F8F7F7;
-$primary-blue: #004b85;
-$dark-blue: #001f36;
+$primary-blue: #009444;
+$dark-blue: #009444;
 
 /* Greys */
 $light-grey: #dfdfdf;
