@@ -1367,18 +1367,6 @@ footer {
 .page-bottom-wrapper {
   background-color: #009444;
   position: relative; }
-  .page-bottom-wrapper:before {
-    content: "";
-    display: block;
-    height: 10px;
-    width: 100%;
-    background: url(../images/bars.svg);
-    background-size: 100%;
-    position: absolute;
-    bottom: 100%; }
-    @media (min-width: 792px) {
-      .page-bottom-wrapper:before {
-        width: 45%; } }
   .page-bottom-wrapper .region-bottom {
     padding: 30px 22px; }
     @media (min-width: 1121px) {

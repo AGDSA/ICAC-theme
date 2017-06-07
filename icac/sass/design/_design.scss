@@ -916,19 +916,6 @@
         .page-bottom-wrapper {
             background-color: $primary-color-lighter;
             position: relative;
-            &:before {
-                content: "";
-                display: block;
-                height: 10px;
-                width: 100%;
-                background: url(../images/bars.svg);
-                background-size: 100%;
-                position: absolute;
-                bottom: 100%;
-                @include from(tablet-l) {
-                    width: 45%;
-                }
-            }
             .region-bottom {
                 padding: 30px 22px;
                 @include from(desktop-mid) {
