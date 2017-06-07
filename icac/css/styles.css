@@ -199,6 +199,7 @@ img {
   display: inline-block; }
 
 #content ul {
+  list-style-type: normal;
   margin-top: 30px;
   margin-left: 30px; }
   #content ul li {
@@ -822,6 +823,11 @@ html.mm-opened #block-block-4 .mobile-menu-button span {
         .quick-links .field-name-field-link .field-item a:hover {
           background-color: #009444;
           color: white; }
+
+.pane-block-31 {
+  background-color: #666666; }
+  .pane-block-31 h2 {
+    color: #ffffff; }
 
 /*
 
@@ -3017,7 +3023,8 @@ body.not-front.node-type-project aside.sidebars {
   margin-top: 87px; }
 
 .pane-block-26,
-.pane-block-31 .messages,
+.pane-block-31,
+.messages,
 .breadcrumb,
 .header__inner,
 .region-bottom {
