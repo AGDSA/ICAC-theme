@@ -334,7 +334,7 @@ body.not-front.node-type-project{
     }
     .view-homepage-banner img{
         @include to(tablet-p){
-            height: 450px !important;
+            height: 350px !important;
         }
     }
 }
@@ -343,6 +343,9 @@ body.not-front.node-type-project{
     .field-content {
         height: 500px;
         overflow: hidden;
+        @include to(tablet-p){
+            height: 350px !important;
+        }
         img {
             min-width: 100%;
             max-width: none;

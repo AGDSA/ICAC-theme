@@ -791,7 +791,8 @@ html.mm-opened #block-block-4 .mobile-menu-button span {
   background-color: #666666; }
   .pane-block-31 h2 {
     color: #fff;
-    margin: 1em;
+    padding: 1em;
+    margin: 0;
     text-align: center; }
   .pane-block-31 p {
     color: #ffffff; }
@@ -2963,11 +2964,14 @@ body.not-front.node-type-project aside.sidebars {
 
 @media (max-width: 791px) {
   .front .view-homepage-banner img {
-    height: 450px !important; } }
+    height: 350px !important; } }
 
 .view-homepage-banner .field-content {
   height: 500px;
   overflow: hidden; }
+  @media (max-width: 791px) {
+    .view-homepage-banner .field-content {
+      height: 350px !important; } }
   .view-homepage-banner .field-content img {
     min-width: 100%;
     max-width: none;
