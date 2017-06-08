@@ -98,7 +98,7 @@ p {
   line-height: 24px; }
 
 a {
-  color: #009444; }
+  color: #1D194C; }
   a:hover {
     color: #666666;
     text-decoration: underline; }
@@ -327,7 +327,7 @@ div.accordion-container {
       .toc-filter .toc-filter-content ul li {
         list-style-type: none; }
         .toc-filter .toc-filter-content ul li a {
-          color: #009444;
+          color: #666666;
           font-weight: bold;
           font-size: 14px;
           font-size: 0.875rem; }
@@ -1431,7 +1431,7 @@ footer {
             float: left;
             clear: none;
             text-align: inherit;
-            width: 19.2%;
+            width: 24.25%;
             margin-left: 0%;
             margin-right: 1%;
             text-align: left; }
@@ -1463,7 +1463,7 @@ footer {
         .page-bottom-wrapper .region-bottom #block-block-16 p {
           text-align: left; } }
       .page-bottom-wrapper .region-bottom #block-block-16 p a {
-        color: #1D194C; }
+        color: #ffffff; }
         .page-bottom-wrapper .region-bottom #block-block-16 p a:focus, .page-bottom-wrapper .region-bottom #block-block-16 p a:hover {
           text-decoration: underline; }
     .page-bottom-wrapper .region-bottom #block-block-3 {
@@ -1564,7 +1564,7 @@ footer {
     color: #666666;
     padding: 0 2px; }
   .breadcrumb .crumbs-separator {
-    color: #009444; }
+    color: #666666; }
 
 .node-type-tableau-dashboard .field-name-field-summary,
 .node-type-page .field-name-field-summary,
@@ -3014,6 +3014,14 @@ body.not-front.node-type-project aside.sidebars {
   @media (min-width: 792px) {
     .pane-block-26 {
       float: none; } }
+
+.pane-block-31,
+.pane-block-26 {
+  margin: 2em auto; }
+  @media (max-width: 1120px) {
+    .pane-block-31,
+    .pane-block-26 {
+      padding: 0px 15px; } }
 
 /*
  ____  _____   ______   _________________      ______        _____  _____   ______          ____    ____                   _____          ____         _____         ______            ______

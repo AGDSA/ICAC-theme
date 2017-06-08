@@ -97,7 +97,7 @@ p{
 	}
 }
 a{
-	color: $primary-color-lighter;
+	color: $tertiary-color;
 	&:hover{
 		color: $secondary-color;
 		text-decoration: underline;
@@ -328,7 +328,7 @@ div.accordion-container{
 			li{
 				list-style-type: none;
 				a{
-					color: $primary-color-lighter;
+					color: $secondary-color;
 					font-weight: bold;
 					@include font-size(14);
 				}

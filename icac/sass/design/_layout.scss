@@ -393,6 +393,13 @@ body.not-front.node-type-project{
         float: none;
     }
 }
+.pane-block-31,
+.pane-block-26{
+    margin: 2em auto;
+    @include to(desktop) {
+        padding: 0px 15px;
+    }
+}
 
 
 
