@@ -586,16 +586,16 @@ header.header {
         -o-transition-delay: 0, 0.2s;
         transition-delay: 0, 0.2s; }
       header.header #block-superfish-1 li.sf-depth-1 > a {
-        color: #009444;
+        color: #666666;
         font-size: 15px;
         font-size: 0.9375rem;
         font-weight: bold;
         padding-bottom: 36px;
         text-decoration: none; }
         header.header #block-superfish-1 li.sf-depth-1 > a:hover {
-          color: #666666; }
+          color: #1D194C; }
           header.header #block-superfish-1 li.sf-depth-1 > a:hover:after {
-            border-color: #666666; }
+            border-color: #1D194C; }
         header.header #block-superfish-1 li.sf-depth-1 > a:after {
           content: "";
           display: inline-block;
@@ -603,9 +603,9 @@ header.header {
           -webkit-transform: rotate(45deg);
           -ms-transform: rotate(45deg);
           transform: rotate(45deg);
-          border-right: 2px solid #009444;
+          border-right: 2px solid #666666;
           height: 8px;
-          border-bottom: 2px solid #009444;
+          border-bottom: 2px solid #666666;
           margin-left: 10px;
           margin-bottom: 3px; }
       header.header #block-superfish-1 li.sf-depth-1 > ul {
@@ -656,7 +656,7 @@ header.header {
             word-wrap: break-word;
             max-width: 260px;
             text-align: left;
-            color: #009444;
+            color: #666666;
             font-size: 20px;
             font-size: 1.25rem;
             font-weight: bold;
@@ -696,9 +696,9 @@ header.header {
             font-size: 13px;
             font-size: 0.8125rem; }
           header.header #block-superfish-1 li.sf-depth-1 > ul > li:hover:before {
-            background-color: #002056; }
+            background-color: #1D194C; }
   header.header .site-name {
-    background-color: #009444;
+    background-color: #666666;
     font-size: 13px;
     font-size: 0.8125rem;
     color: #ffffff;
@@ -725,7 +725,7 @@ header.header {
       padding: 15px 0 15px 0; }
       header.header #block-block-4 .mobile-menu-button span {
         font-size: 0px;
-        background-color: #009444;
+        background-color: #666666;
         display: block;
         height: 6px;
         width: 50px;
@@ -740,7 +740,7 @@ header.header {
           height: 6px;
           width: 50px;
           border-radius: 15px;
-          background-color: #009444;
+          background-color: #666666;
           -webkit-transition: all 0.6s ease;
           -o-transition: all 0.6s ease;
           transition: all 0.6s ease; }
@@ -786,43 +786,6 @@ html.mm-opened #block-block-4 .mobile-menu-button span {
   .pane-search-api-page-default-search #edit-submit-2:hover,
   .search-form-widget #edit-submit-2:hover {
     background: #009444 url(../images/search.png) no-repeat center center; }
-
-.quick-links {
-  background-color: rgba(20, 63, 136, 0.35);
-  padding-bottom: 30px;
-  z-index: 50; }
-  @media (min-width: 792px) {
-    .quick-links {
-      padding-top: 25px;
-      padding-bottom: 50px; } }
-  .quick-links .field-name-field-link {
-    width: 80%;
-    max-width: 800px;
-    margin: auto;
-    text-align: center; }
-    @media (max-width: 791px) {
-      .quick-links .field-name-field-link .field-item:nth-child(n+4) {
-        display: none; } }
-    .quick-links .field-name-field-link .field-item {
-      display: inline-block;
-      padding-right: 20px;
-      text-align: center;
-      margin-top: 25px; }
-      .quick-links .field-name-field-link .field-item a {
-        font-size: 14px;
-        font-size: 0.875rem;
-        -webkit-transition: all 0.2s ease-in-out;
-        -o-transition: all 0.2s ease-in-out;
-        transition: all 0.2s ease-in-out;
-        text-decoration: none;
-        background-color: #ffffff;
-        padding: 8px 23px;
-        color: #009444;
-        border-radius: 20px;
-        font-weight: bold; }
-        .quick-links .field-name-field-link .field-item a:hover {
-          background-color: #009444;
-          color: white; }
 
 .pane-block-31 {
   background-color: #666666; }

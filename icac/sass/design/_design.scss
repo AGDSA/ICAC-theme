@@ -162,15 +162,15 @@
                         }
                     }
                     & > a {
-                        color: $heading-color;
+                        color: $secondary-color;
                         @include font-size(15);
                         font-weight: bold;
                         padding-bottom: 36px;
                         text-decoration: none;
                         &:hover {
-                            color: $secondary-color;
+                            color: $tertiary-color;
                             &:after {
-                                border-color: $secondary-color;
+                                border-color: $tertiary-color;
                             }
                         }
                         &:after {
@@ -178,9 +178,9 @@
                             display: inline-block;
                             width: 8px;
                             transform: rotate(45deg);
-                            border-right: 2px solid $heading-color;
+                            border-right: 2px solid $secondary-color;
                             height: 8px;
-                            border-bottom: 2px solid $heading-color;
+                            border-bottom: 2px solid $secondary-color;
                             margin-left: 10px;
                             margin-bottom: 3px;
                         }
@@ -244,7 +244,7 @@
                                 word-wrap: break-word;
                                 max-width: 260px;
                                 text-align: left;
-                                color: $heading-color;
+                                color: $secondary-color;
                                 @include font-size($card-title-font-size);
                                 font-weight: bold;
                                 position: relative;
@@ -307,7 +307,7 @@
                             }
                             &:hover {
                                 &:before {
-                                    background-color: #002056;
+                                    background-color: $tertiary-color;
                                 }
                             }
                         }
@@ -315,7 +315,7 @@
                 }
             }
             .site-name {
-                background-color: $primary-color-lighter;
+                background-color: $secondary-color;
                 @include font-size(13);
                 color: #ffffff;
                 font-weight: bolder;
@@ -342,7 +342,7 @@
                     padding: 15px 0 15px 0;
                     span {
                         font-size: 0px;
-                        background-color: $primary-color;
+                        background-color: $secondary-color;
                         display: block;
                         height: 6px;
                         width: 50px;
@@ -356,7 +356,7 @@
                             height: 6px;
                             width: 50px;
                             border-radius: 15px;
-                            background-color: $primary-color;
+                            background-color: $secondary-color;
                             transition: all 0.6s ease;
                         }
                         &:before {
@@ -429,47 +429,7 @@
             }
         }
         
-        .quick-links {
-            background-color: rgba(20, 63, 136, 0.35);
-            padding-bottom: 30px;
-            z-index: 50;
-            @include from(tablet-l) {
-                padding-top: 25px;
-                padding-bottom: 50px;
-            }
-            .field-name-field-link {
-                width: 80%;
-                max-width: 800px;
-                margin: auto;
-                text-align: center;
-                @include to(tablet-p) {
-                    .field-item:nth-child(n+4) {
-                        display: none;
-                    }
-                }
-                .field-item {
-                    //@include column(1/3, $cycle: 3);
-                    display: inline-block;
-                    padding-right: 20px;
-                    text-align: center;
-                    margin-top: 25px;
-                    a {
-                        @include font-size(14);
-                        transition: all 0.2s ease-in-out;
-                        text-decoration: none;
-                        background-color: #ffffff;
-                        padding: 8px 23px;
-                        color: $primary-color-lighter;
-                        border-radius: 20px;
-                        font-weight: bold;
-                        &:hover {
-                            background-color: $primary-color-lighter;
-                            color: white;
-                        }
-                    }
-                }
-            }
-        }
+
 
 
 //Homepage content styles
