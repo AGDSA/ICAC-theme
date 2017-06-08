@@ -199,10 +199,10 @@ img {
   display: inline-block; }
 
 #content ul {
-  list-style-type: normal;
   margin-top: 30px;
   margin-left: 30px; }
   #content ul li {
+    list-style-type: normal;
     margin-bottom: 5px; }
 
 textarea:focus, input:focus {
@@ -3005,7 +3005,7 @@ body.not-front.node-type-project aside.sidebars {
     height: 450px !important; } }
 
 .view-homepage-banner .field-content {
-  height: 580px;
+  height: 500px;
   overflow: hidden; }
   .view-homepage-banner .field-content img {
     min-width: 100%;
