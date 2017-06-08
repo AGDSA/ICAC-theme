@@ -93,6 +93,10 @@ body.not-front {
         margin: auto;
         margin-top: 10px;
     }
+    //sidebar hide for ICAC
+    .sidebars{
+        display: none !important;
+    }
 }
 
 body.node-type-news-article,
@@ -134,7 +138,7 @@ body.not-front.node-type-project{
         $gutter-content: $jeet-gutter;
         #content {
             @include column(5/8, $gutter: $gutter-content);
-            @include move(3/8, $gutter: $gutter-content);
+            @include move(1.5/8, $gutter: $gutter-content);
         }
         aside {
             @include column(3/8, $gutter: $gutter-content);
