@@ -965,7 +965,7 @@
                             text-align: left;
                         }
                         a {
-                            color: #ffffff;
+                            color: $tertiary-color;
                             text-align: center !important;
                             text-decoration: none;
                             @include font-size(13);
@@ -974,14 +974,14 @@
                 }
                 #block-block-16 {
                     p {
-                        color: #ffffff;
+                        color: $tertiary-color;
                         @include font-size($base-font-size);
                         text-align: center;
                         @include from(tablet-l) {
                             text-align: left;
                         }
                         a {
-                            color: #ffffff;
+                            color: $tertiary-color;
                             &:focus,
                             &:hover {
                                 text-decoration: underline;
@@ -1080,12 +1080,12 @@
             @include from(desktop-mid) {
                 padding-left: 0px;
             }
-            color: $secondary-color;
+            color: $tertiary-color;
             // border-bottom: 1px solid #e4e4e3;
             a {
                 @include font-size(14);
                 text-decoration: none;
-                color: $primary-color;
+                color: $secondary-color;
                 padding: 0 2px;
             }
             .crumbs-separator {
