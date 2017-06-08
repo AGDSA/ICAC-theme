@@ -441,7 +441,7 @@ a:visited {
 
 /* Clearfix */
 .clearfix:after, header.header #block-superfish-1:after, #main .card-view:after, footer #block-menu-block-2 .menu-block-2:after, #page #main .bean-image-and-text .image:after, body.page-search404 #content .search-form .form-item-keys:after,
-body.page-search #content .search-form .form-item-keys:after, .front #main .card-view .view:after,
+body.page-search #content .search-form .form-item-keys:after, #main:after, .front #main .card-view .view:after,
 .front #main .card-view .card-wrapper:after, .not-front #main .card-view .view:after,
 .not-front #main .card-view .card-wrapper:after, #content .square-view:after, #content .square-view div.view div.view-content:after, .page-search #content #search-api-page-search-form:after, .page-search #content #search-api-page-search-form .form-item-keys-2:after, .node-type-project .field-name-field-cta-buttons:after, .layout-row:after {
   content: ".";
@@ -3050,6 +3050,12 @@ body.not-front.node-type-project aside.sidebars {
 
 .panels-flexible-region-inside-first {
   width: 100%; }
+
+.pane-block-26 {
+  float: left; }
+  @media (min-width: 792px) {
+    .pane-block-26 {
+      float: none; } }
 
 /*
  ____  _____   ______   _________________      ______        _____  _____   ______          ____    ____                   _____          ____         _____         ______            ______

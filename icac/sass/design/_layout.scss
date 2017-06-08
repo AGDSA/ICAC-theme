@@ -383,6 +383,12 @@ body.not-front.node-type-project{
 .panels-flexible-region-inside-first {
     width: 100%;
 }
+.pane-block-26{
+    float: left;
+    @include from(tablet-l){
+        float: none;
+    }
+}
 
 
 
@@ -417,6 +423,9 @@ body.not-front.node-type-project{
 
 div.workbench-info-block {
     margin: 15px 0;
+}
+#main{
+    @extend .clearfix;
 }
 
 
