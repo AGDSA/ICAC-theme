@@ -1338,7 +1338,7 @@ footer {
           color: #626262; }
 
 .page-bottom-wrapper {
-  background-color: #009444;
+  background-color: #666666;
   position: relative; }
   .page-bottom-wrapper .region-bottom {
     padding: 30px 22px; }
@@ -1449,13 +1449,13 @@ footer {
             .page-bottom-wrapper .region-bottom #block-menu-menu-footer-sub-menu li:nth-child(5n + 1) {
               clear: both; } }
         .page-bottom-wrapper .region-bottom #block-menu-menu-footer-sub-menu li a {
-          color: #1D194C;
+          color: #ffffff;
           text-align: center !important;
           text-decoration: none;
           font-size: 13px;
           font-size: 0.8125rem; }
     .page-bottom-wrapper .region-bottom #block-block-16 p {
-      color: #1D194C;
+      color: #ffffff;
       font-size: 13px;
       font-size: 0.8125rem;
       text-align: center; }

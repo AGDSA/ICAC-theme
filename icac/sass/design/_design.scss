@@ -890,7 +890,7 @@
         
         //Page bottom region
         .page-bottom-wrapper {
-            background-color: $primary-color-lighter;
+            background-color: $secondary-color;
             position: relative;
             .region-bottom {
                 padding: 30px 22px;
@@ -965,7 +965,7 @@
                             text-align: left;
                         }
                         a {
-                            color: $tertiary-color;
+                            color: #ffffff;
                             text-align: center !important;
                             text-decoration: none;
                             @include font-size(13);
@@ -974,7 +974,7 @@
                 }
                 #block-block-16 {
                     p {
-                        color: $tertiary-color;
+                        color: #ffffff;
                         @include font-size($base-font-size);
                         text-align: center;
                         @include from(tablet-l) {
