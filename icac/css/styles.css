@@ -827,8 +827,9 @@ html.mm-opened #block-block-4 .mobile-menu-button span {
 .pane-block-31 {
   background-color: #666666; }
   .pane-block-31 h2 {
-    color: #ffffff;
-    margin: 0.5em; }
+    color: #fff;
+    margin: 1em;
+    text-align: center; }
   .pane-block-31 p {
     color: #ffffff; }
 
@@ -1649,15 +1650,6 @@ footer {
     #block-views-banner-image-top-block .block__content {
       max-height: 400px;
       height: 400px; } }
-  #block-views-banner-image-top-block .block__content .view-banner-image-top .view-content:after {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: rgba(20, 63, 136, 0.28); }
   #block-views-banner-image-top-block .block__content .view-banner-image-top .view-content img {
     min-width: 100%;
     max-width: none;

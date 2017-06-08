@@ -476,8 +476,9 @@
 .pane-block-31{
     background-color: $secondary-color;
     h2{
-        color: #ffffff;
-        margin: 0.5em;
+        color: #fff;
+        margin: 1em;
+        text-align: center;
     }
     p{
         color:#ffffff;
@@ -1179,16 +1180,17 @@
                 }
                 .view-banner-image-top {
                     .view-content {
-                        &:after {
-                            content: "";
-                            display: block;
-                            position: absolute;
-                            top: 0;
-                            right: 0;
-                            bottom: 0;
-                            left: 0;
-                            background-color: rgba(20, 63, 136, 0.28);
-                        }
+                        //internal page banner darkener
+                        // &:after {
+                        //     content: "";
+                        //     display: block;
+                        //     position: absolute;
+                        //     top: 0;
+                        //     right: 0;
+                        //     bottom: 0;
+                        //     left: 0;
+                        //     background-color: rgba(20, 63, 136, 0.28);
+                        // }
                         img {
                             min-width: 100%;
                             max-width: none;
