@@ -438,6 +438,9 @@
     .col-one-half{
         background-color: $secondary-color;
     }
+    img{
+        width: 100%;
+    }
     h2{
         padding: 1em;
         text-align: center;
@@ -454,6 +457,8 @@
     }
     p{
         color:#ffffff;
+        text-align: center;
+        padding: 15px;
     }
 }
 
