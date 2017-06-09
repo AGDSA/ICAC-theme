@@ -72,6 +72,11 @@ $(document).ready(function() {
     }
 
   });
+
+  //Make frontpage blocks equal height
+  $(".front .pane-block-31 .col-one-half").matchHeight();
+
+
 });
 
 

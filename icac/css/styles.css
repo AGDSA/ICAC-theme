@@ -792,15 +792,17 @@ html.mm-opened #block-block-4 .mobile-menu-button span {
 .pane-block-31 .col-one-half {
   background-color: #666666; }
 
-.pane-block-31 h2 a {
-  color: #fff;
+.pane-block-31 h2 {
   padding: 1em;
-  margin: 0;
   text-align: center;
-  text-decoration: none; }
-  .pane-block-31 h2 a:hover {
-    color: #009444;
-    text-decoration: underline; }
+  margin: 0; }
+  .pane-block-31 h2 a {
+    color: #fff;
+    margin: 0;
+    text-decoration: none; }
+    .pane-block-31 h2 a:hover {
+      color: #009444;
+      text-decoration: underline; }
 
 .pane-block-31 p {
   color: #ffffff; }
@@ -4232,7 +4234,7 @@ div.header-secondary-menu {
       font-weight: normal; }
 
 .layout-row {
-  overflow: auto; }
+  overflow: visible; }
 
 body.cke_editable {
   padding: 20px; }

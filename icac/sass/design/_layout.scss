@@ -1327,7 +1327,7 @@ div.header-secondary-menu{
 //Two column section
 .layout-row {
     @extend .clearfix;
-    overflow: auto;
+    overflow: visible;
 }
 body.cke_editable {
     padding: 20px;

@@ -438,15 +438,18 @@
     .col-one-half{
         background-color: $secondary-color;
     }
-    h2 a{
-        color: #fff;
+    h2{
         padding: 1em;
-        margin: 0;
         text-align: center;
-        text-decoration: none;
-        &:hover{
-            color: $primary-color;
-            text-decoration: underline;
+        margin: 0;
+         a{
+            color: #fff;
+            margin: 0;
+            text-decoration: none;
+            &:hover{
+                color: $primary-color;
+                text-decoration: underline;
+            }
         }
     }
     p{
