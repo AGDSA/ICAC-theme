@@ -103,7 +103,7 @@ a {
     color: #666666;
     text-decoration: underline; }
   a:visited {
-    color: #666666; }
+    color: #1D194C; }
 
 a.external:after {
   font-size: 14px;
@@ -796,7 +796,11 @@ html.mm-opened #block-block-4 .mobile-menu-button span {
   color: #fff;
   padding: 1em;
   margin: 0;
-  text-align: center; }
+  text-align: center;
+  text-decoration: none; }
+  .pane-block-31 h2 a:hover {
+    color: #009444;
+    text-decoration: underline; }
 
 .pane-block-31 p {
   color: #ffffff; }

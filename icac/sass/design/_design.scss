@@ -443,6 +443,11 @@
         padding: 1em;
         margin: 0;
         text-align: center;
+        text-decoration: none;
+        &:hover{
+            color: $primary-color;
+            text-decoration: underline;
+        }
     }
     p{
         color:#ffffff;
