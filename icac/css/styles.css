@@ -794,7 +794,7 @@ html.mm-opened #block-block-4 .mobile-menu-button span {
   line-height: 40px;
   background: rgba(0, 0, 0, 0.6);
   color: #009444;
-  padding: 20px;
+  padding: 20px 15px;
   border-radius: 1em;
   font-weight: bold;
   -webkit-box-shadow: 0px 0px 100px 0px #000000;
