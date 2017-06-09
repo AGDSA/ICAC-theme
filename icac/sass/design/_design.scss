@@ -434,6 +434,23 @@
 
 
 //Homepage content styles
+
+#panels-ipe-paneid-31{
+    p{
+        font-size: 2.5em;
+        line-height: 40px;
+        background: rgba(0, 0, 0, 0.6);
+        color: #009444;
+        padding: 20px;
+        border-radius: 1em;
+        font-weight: bold;
+        box-shadow: 0px 0px 100px 0px #000000;
+        @include font-size(20);
+        @include from(tablet-p){
+            @include font-size(32);
+        }
+    }
+}
 .pane-block-31{
     .col-one-half{
         background-color: $secondary-color;
@@ -461,7 +478,6 @@
         padding: 15px;
     }
 }
-
 
         /*
 
