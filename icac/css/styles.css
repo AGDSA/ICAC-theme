@@ -330,6 +330,9 @@ div.accordion-container {
           font-size: 14px;
           font-size: 0.875rem; }
 
+#main #content .toc-filter .toc-filter-content ul li {
+  list-style-type: none; }
+
 .toc-bookmark {
   display: block;
   padding-top: 200px;
