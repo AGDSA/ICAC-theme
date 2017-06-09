@@ -103,7 +103,7 @@ a{
 		text-decoration: underline;
 	}
 	&:visited{
-		color: $primary-gray-text;
+		color: $secondary-color;
 	}
 }
 a.external{
@@ -187,7 +187,7 @@ table.large-only{
     line-height: 1.16667em;
     margin-top: 0.41667em;
     margin-bottom: 0.41667em;
-    color: #143f88;
+    color: $primary-color;
     font-weight: bold;
 }
 

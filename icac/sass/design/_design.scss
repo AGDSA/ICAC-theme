@@ -281,6 +281,7 @@
                                 //      margin: 0;
                                 // }
                                 &:hover {
+                                    color: $tertiary-color;
                                     // &::before {
                                     //     transform: rotate(180deg);
                                     //     transition: transform 0.5s ease;
@@ -434,8 +435,10 @@
 
 //Homepage content styles
 .pane-block-31{
-    background-color: $secondary-color;
-    h2{
+    .col-one-half{
+        background-color: $secondary-color;
+    }
+    h2 a{
         color: #fff;
         padding: 1em;
         margin: 0;
@@ -1807,13 +1810,16 @@
                 background-color: #ffffff;
             }
             .menu__link {
-                color: $primary-color;
+                color: $secondary-color;
                 @include font-size(15);
                 font-weight: bold;
                 padding: 15px 10px;
                 background-color: #ffffff;
                 border: none;
                 border-right: 1px solid $primary-gray;
+                &:hover{
+                    color: $tertiary-color;
+                }
             }
             .menu__item {
                 margin-bottom: 10px;
@@ -1823,6 +1829,7 @@
             }
             .mm-listview {
                 padding: 25px;
+                margin-top: 0px;
             }
         }
         

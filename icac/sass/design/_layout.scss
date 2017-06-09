@@ -884,7 +884,7 @@ div.workbench-info-block {
     .mm-next {
         background-color: #ffffff;
         &:after {
-            border-color: $primary-color;
+            border-color: $secondary-color;
         }
         &:before {
             border: none;
@@ -893,7 +893,7 @@ div.workbench-info-block {
     .mm-btn {
         &:before {
             border-color: $secondary-color;
-            top: 18px;
+            top: 46px;
         }
     }
     .menu__item {
@@ -1327,6 +1327,7 @@ div.header-secondary-menu{
 //Two column section
 .layout-row {
     @extend .clearfix;
+    overflow: auto;
 }
 body.cke_editable {
     padding: 20px;
