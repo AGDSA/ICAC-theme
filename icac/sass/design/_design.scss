@@ -1002,6 +1002,9 @@
                             text-align: center !important;
                             text-decoration: none;
                             @include font-size(13);
+                            &:hover{
+                                color:$primary-color;
+                            }
                         }
                     }
                 }
@@ -1018,6 +1021,9 @@
                             &:focus,
                             &:hover {
                                 text-decoration: underline;
+                                &:hover{
+                                    color:$primary-color;
+                                }
                             }
                         }
                     }

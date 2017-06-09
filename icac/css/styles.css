@@ -99,11 +99,9 @@ p {
 
 a {
   color: #1D194C; }
-  a:hover {
+  a:hover, a:visited {
     color: #666666;
     text-decoration: underline; }
-  a:visited {
-    color: #1D194C; }
 
 a.external:after {
   font-size: 14px;
@@ -1487,6 +1485,8 @@ footer {
           text-decoration: none;
           font-size: 13px;
           font-size: 0.8125rem; }
+          .page-bottom-wrapper .region-bottom #block-menu-menu-footer-sub-menu li a:hover {
+            color: #009444; }
     .page-bottom-wrapper .region-bottom #block-block-16 p {
       color: #ffffff;
       font-size: 13px;
@@ -1499,6 +1499,8 @@ footer {
         color: #ffffff; }
         .page-bottom-wrapper .region-bottom #block-block-16 p a:focus, .page-bottom-wrapper .region-bottom #block-block-16 p a:hover {
           text-decoration: underline; }
+          .page-bottom-wrapper .region-bottom #block-block-16 p a:focus:hover, .page-bottom-wrapper .region-bottom #block-block-16 p a:hover:hover {
+            color: #009444; }
     .page-bottom-wrapper .region-bottom #block-block-3 {
       position: relative;
       display: block;
