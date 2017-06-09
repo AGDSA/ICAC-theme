@@ -3040,6 +3040,25 @@ body.not-front.node-type-project aside.sidebars {
     .pane-block-26 {
       padding: 0px 15px; } }
 
+#panels-ipe-paneid-31 {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  z-index: 99;
+  -webkit-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  transform: translate(-50%); }
+  #panels-ipe-paneid-31 p {
+    font-size: 2.5em;
+    line-height: 40px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #009444;
+    padding: 20px;
+    border-radius: 1em;
+    font-weight: bold;
+    -webkit-box-shadow: 0px 0px 100px 0px #000000;
+    box-shadow: 0px 0px 100px 0px #000000; }
+
 /*
  ____  _____   ______   _________________      ______        _____  _____   ______          ____    ____                   _____          ____         _____         ______            ______
 |    ||\    \ |\     \ /                 \ ___|\     \   ___|\    \|\    \ |\     \    ____|\   \  |    |              ___|\    \    ____|\   \    ___|\    \    ___|\     \       ___|\     |    | \\    \| \     \\______     ______/|     \     \ |    |\    \\\    \| \     \  /    /\    \ |    |             |    |\    \  /    /\    \  /    /\    \  |     \     \     |    |\     |    |  \|    \  \     |  \( /    /  )/   |     ,_____/||    | |    |\|    \  \     ||    |  |    ||    |             |    | |    ||    |  |    ||    |  |____| |     ,_____/|    |    |/____/|
