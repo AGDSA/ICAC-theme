@@ -2778,9 +2778,6 @@ body.not-front #content {
   margin: auto;
   margin-top: 10px; }
 
-body.not-front .sidebars {
-  display: none !important; }
-
 body.node-type-news-article #main,
 body.node-type-news-article .breadcrumb,
 body.node-type-landing-page #main,
@@ -2814,7 +2811,7 @@ body.not-front.node-type-project aside.sidebars {
     margin-left: 0%;
     margin-right: 4%;
     position: relative;
-    left: 19.5%; }
+    left: 39%; }
     body.not-front.node-type-page #content::after,
     body.not-front.node-type-project #content::after {
       content: '';
