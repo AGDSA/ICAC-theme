@@ -822,8 +822,7 @@ html.mm-opened #block-block-4 .mobile-menu-button span {
     margin: 0;
     text-decoration: none; }
     .pane-block-31 h2 a:hover {
-      color: #009444;
-      text-decoration: underline; }
+      color: #009444; }
 
 .pane-block-31 p {
   color: #ffffff;
@@ -1601,6 +1600,8 @@ footer {
     text-decoration: none;
     color: #666666;
     padding: 0 2px; }
+    .breadcrumb a:hover {
+      color: #1D194C; }
   .breadcrumb .crumbs-separator {
     color: #666666; }
 

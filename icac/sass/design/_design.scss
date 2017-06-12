@@ -468,7 +468,6 @@
             text-decoration: none;
             &:hover{
                 color: $primary-color;
-                text-decoration: underline;
             }
         }
     }
@@ -1126,6 +1125,9 @@
                 text-decoration: none;
                 color: $secondary-color;
                 padding: 0 2px;
+                &:hover{
+                    color: $tertiary-color;
+                }
             }
             .crumbs-separator {
                 color: $secondary-color;
