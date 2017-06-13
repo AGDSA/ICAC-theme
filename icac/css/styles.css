@@ -790,7 +790,7 @@ html.mm-opened #block-block-4 .mobile-menu-button span {
   .search-form-widget #edit-submit-2:hover {
     background: #009444 url(../images/search.png) no-repeat center center; }
 
-#panels-ipe-paneid-31 p {
+#homepage-welcome-text p {
   font-size: 2.5em;
   line-height: 40px;
   text-align: center;
@@ -804,7 +804,7 @@ html.mm-opened #block-block-4 .mobile-menu-button span {
   font-size: 20px;
   font-size: 1.25rem; }
   @media (min-width: 481px) {
-    #panels-ipe-paneid-31 p {
+    #homepage-welcome-text p {
       font-size: 32px;
       font-size: 2rem; } }
 
