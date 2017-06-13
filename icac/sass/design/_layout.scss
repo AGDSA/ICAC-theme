@@ -425,6 +425,11 @@ body.not-front.node-type-project{
     background: rgba(0,0,0,0.6);
 }
 #homepage-welcome-text{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 99;
     width: 100%;
     max-width: 1120px;
     margin: 0 auto;
