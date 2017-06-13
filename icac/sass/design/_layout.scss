@@ -399,6 +399,11 @@ body.not-front.node-type-project{
     @include from(tablet-l){
         float: none;
     }
+    .col-one-half{
+        h2{
+            margin-top: 10px;
+        }
+    }
 }
 .pane-block-31,
 .pane-block-26{

@@ -3059,6 +3059,8 @@ body.not-front.node-type-project aside.sidebars {
   @media (min-width: 792px) {
     .pane-block-26 {
       float: none; } }
+  .pane-block-26 .col-one-half h2 {
+    margin-top: 10px; }
 
 .pane-block-31,
 .pane-block-26 {
