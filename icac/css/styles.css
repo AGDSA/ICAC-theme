@@ -3070,7 +3070,10 @@ body.not-front.node-type-project aside.sidebars {
     .pane-block-26 {
       padding: 0px 15px; } }
 
-#panels-ipe-paneid-31 {
+.pane-block-31 {
+  margin-bottom: 55px; }
+
+#homepage-welcome-text {
   position: absolute;
   top: 10%;
   left: 50%;
