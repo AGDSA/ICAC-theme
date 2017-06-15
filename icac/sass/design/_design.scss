@@ -122,6 +122,19 @@
                 //     }
                 // }
                 li.sf-depth-1 {
+                    .active{
+                              &:before {
+                                content: "";
+                                display: block;
+                                width: 34px;
+                                height: 5px;
+                                background-color: $secondary-color;
+                                position: absolute;
+                                bottom: 0;
+                                left: 50%;
+                                transform: translateX(-17px);
+                            }
+                    }
                 	&.sf-no-children{
                 		& > a:after{
                 			content: none !important;
