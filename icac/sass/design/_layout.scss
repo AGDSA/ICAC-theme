@@ -58,6 +58,7 @@ body.navbar-administration {
         padding-top: 10px;
         padding-left: 5px;
         max-width: 310px;
+        image-rendering: -webkit-optimize-contrast;
         @include to(desktop-mid) {
             max-width: 255px;
         }
