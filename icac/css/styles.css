@@ -329,6 +329,8 @@ div.accordion-container {
           font-weight: bold;
           font-size: 14px;
           font-size: 0.875rem; }
+          .toc-filter .toc-filter-content ul li a:hover {
+            color: #1D194C; }
 
 #main #content .toc-filter .toc-filter-content ul li {
   list-style-type: none; }

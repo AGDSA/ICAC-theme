@@ -328,6 +328,9 @@ div.accordion-container{
 					color: $secondary-color;
 					font-weight: bold;
 					@include font-size(14);
+					&:hover{
+						color: $tertiary-color;
+					}
 				}
 			}
 		}
