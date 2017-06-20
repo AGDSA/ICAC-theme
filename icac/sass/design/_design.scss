@@ -148,7 +148,7 @@
                         transition: visibility 0.1s ease-in, opacity 0.1s ease-in;
                         transition-delay: 0, 0;
                     }
-                    &.sfHover {
+                    &.active-trail {
                         & > a {
                             color: $secondary-color;
                             text-decoration: none;

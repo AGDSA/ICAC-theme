@@ -572,12 +572,12 @@ header.header {
         -webkit-transition-delay: 0, 0;
         -o-transition-delay: 0, 0;
         transition-delay: 0, 0; }
-      header.header #block-superfish-1 li.sf-depth-1.sfHover > a {
+      header.header #block-superfish-1 li.sf-depth-1.active-trail > a {
         color: #666666;
         text-decoration: none; }
-        header.header #block-superfish-1 li.sf-depth-1.sfHover > a:after {
+        header.header #block-superfish-1 li.sf-depth-1.active-trail > a:after {
           border-color: #666666; }
-        header.header #block-superfish-1 li.sf-depth-1.sfHover > a:before {
+        header.header #block-superfish-1 li.sf-depth-1.active-trail > a:before {
           content: "";
           display: block;
           width: 34px;
@@ -589,7 +589,7 @@ header.header {
           -webkit-transform: translateX(-17px);
           -ms-transform: translateX(-17px);
           transform: translateX(-17px); }
-      header.header #block-superfish-1 li.sf-depth-1.sfHover > ul {
+      header.header #block-superfish-1 li.sf-depth-1.active-trail > ul {
         visibility: visible !important;
         opacity: 1 !important;
         -webkit-transition: visibility 0.3s ease-in, opacity 0.3s ease-in;
