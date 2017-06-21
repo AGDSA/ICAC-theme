@@ -421,16 +421,16 @@ body.not-front.node-type-project{
 .front .view-homepage-banner .field-content{
     position: relative;
 }
-.front .view-homepage-banner .field-content:before{
-    content: " ";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 90;
-    background: rgba(0,0,0,0.6);
-}
+// .front .view-homepage-banner .field-content:before{
+//     content: " ";
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     right: 0;
+//     bottom: 0;
+//     z-index: 90;
+//     background: rgba(0,0,0,0.6);
+// }
 #homepage-welcome-text{
     position: absolute;
     top: 10%;
