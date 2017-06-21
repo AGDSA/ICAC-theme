@@ -1021,7 +1021,7 @@
                             text-decoration: none;
                             @include font-size(13);
                             &:hover{
-                                color:$tertiary-color;
+                                color:$another-grey;
                             }
                         }
                     }
