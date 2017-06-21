@@ -1000,6 +1000,8 @@
                     @include font-size(14);
                     @include from(tablet-l) {
                         width: 46%; // @include font-size(18);
+                        margin: 0 auto;
+                        display: block;
                     }
                     ul {
                         margin: 0;
@@ -1007,6 +1009,8 @@
                     li {
                         @include column(1/4, $gutter: 1, $cycle: 4);
                         text-align: center;
+                        margin-left: 50%;
+                        transform: translateX(-50%);
                         @include from(tablet-l) {
                             @include column(1/4, $gutter: 1, $cycle: 4);
                             text-align: left;
@@ -1027,16 +1031,16 @@
                         color: #ffffff;
                         @include font-size($base-font-size);
                         text-align: center;
-                        @include from(tablet-l) {
-                            text-align: left;
-                        }
+                        // @include from(tablet-l) {
+                        //     text-align: left;
+                        // }
                         a {
                             color: #ffffff;
                             &:focus,
                             &:hover {
                                 text-decoration: underline;
                                 &:hover{
-                                    color:$tertiary-color;
+                                    color:$another-grey;
                                 }
                             }
                         }
