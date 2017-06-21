@@ -98,10 +98,12 @@ p{
 }
 a{
 	color: $tertiary-color;
-	&:hover, &:visited{
+	&:hover{
 		color: $secondary-color;
-		text-decoration: underline;
 	}
+  &:visited{
+    color: $tertiary-color;
+  }
 }
 a.external{
 	&:after{
@@ -325,11 +327,11 @@ div.accordion-container{
 			li{
 				list-style-type: none;
 				a{
-					color: $secondary-color;
+					 color: $tertiary-color;
 					font-weight: bold;
 					@include font-size(14);
 					&:hover{
-						color: $tertiary-color;
+						color: $secondary-color;
 					}
 				}
 			}

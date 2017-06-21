@@ -482,7 +482,7 @@
             margin: 0;
             text-decoration: none;
             &:hover{
-                color: $primary-color;
+                color: $tertiary-color;
             }
         }
     }
@@ -1017,7 +1017,7 @@
                             text-decoration: none;
                             @include font-size(13);
                             &:hover{
-                                color:$primary-color;
+                                color:$tertiary-color;
                             }
                         }
                     }
@@ -1036,7 +1036,7 @@
                             &:hover {
                                 text-decoration: underline;
                                 &:hover{
-                                    color:$primary-color;
+                                    color:$tertiary-color;
                                 }
                             }
                         }
@@ -1176,10 +1176,10 @@
                 .block__content {
                     max-height: 150px;
                     height: 150px;
-                    @include from(tablet-l) {
-                        max-height: 200px;
-                        height: 200px;
-                    }
+                    // @include from(tablet-l) {
+                    //     max-height: 200px;
+                    //     height: 200px;
+                    // }
                 }
             }
         }

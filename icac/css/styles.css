@@ -99,9 +99,10 @@ p {
 
 a {
   color: #1D194C; }
-  a:hover, a:visited {
-    color: #666666;
-    text-decoration: underline; }
+  a:hover {
+    color: #666666; }
+  a:visited {
+    color: #1D194C; }
 
 a.external:after {
   font-size: 14px;
@@ -325,12 +326,12 @@ div.accordion-container {
       .toc-filter .toc-filter-content ul li {
         list-style-type: none; }
         .toc-filter .toc-filter-content ul li a {
-          color: #666666;
+          color: #1D194C;
           font-weight: bold;
           font-size: 14px;
           font-size: 0.875rem; }
           .toc-filter .toc-filter-content ul li a:hover {
-            color: #1D194C; }
+            color: #666666; }
 
 #main #content .toc-filter .toc-filter-content ul li {
   list-style-type: none; }
@@ -835,7 +836,7 @@ html.mm-opened #block-block-4 .mobile-menu-button span {
     margin: 0;
     text-decoration: none; }
     .pane-block-31 h2 a:hover {
-      color: #009444; }
+      color: #1D194C; }
 
 .pane-block-31 p {
   color: #ffffff;
@@ -1501,7 +1502,7 @@ footer {
           font-size: 13px;
           font-size: 0.8125rem; }
           .page-bottom-wrapper .region-bottom #block-menu-menu-footer-sub-menu li a:hover {
-            color: #009444; }
+            color: #1D194C; }
     .page-bottom-wrapper .region-bottom #block-block-16 p {
       color: #ffffff;
       font-size: 13px;
@@ -1515,7 +1516,7 @@ footer {
         .page-bottom-wrapper .region-bottom #block-block-16 p a:focus, .page-bottom-wrapper .region-bottom #block-block-16 p a:hover {
           text-decoration: underline; }
           .page-bottom-wrapper .region-bottom #block-block-16 p a:focus:hover, .page-bottom-wrapper .region-bottom #block-block-16 p a:hover:hover {
-            color: #009444; }
+            color: #1D194C; }
     .page-bottom-wrapper .region-bottom #block-block-3 {
       position: relative;
       display: block;
@@ -1647,14 +1648,6 @@ footer {
 .node-type-tableau-dashboard #block-views-banner-image-top-block .block__content {
   max-height: 150px;
   height: 150px; }
-  @media (min-width: 792px) {
-    .node-type-page #block-views-banner-image-top-block .block__content,
-    .node-type-news-article #block-views-banner-image-top-block .block__content,
-    .node-type-project #block-views-banner-image-top-block .block__content,
-    .node-type-webform #block-views-banner-image-top-block .block__content,
-    .node-type-tableau-dashboard #block-views-banner-image-top-block .block__content {
-      max-height: 200px;
-      height: 200px; } }
 
 #block-views-banner-image-top-block .block__content {
   max-height: 200px;
@@ -2793,6 +2786,7 @@ body.navbar-administration header {
   .header__inner .header__logo-image {
     padding-top: 10px;
     padding-left: 5px;
+    padding-bottom: 5px;
     max-width: 310px;
     image-rendering: -webkit-optimize-contrast; }
     @media (max-width: 1350px) {
@@ -3023,7 +3017,7 @@ body.not-front.node-type-project aside.sidebars {
   margin-bottom: 55px; }
 
 .view-homepage-banner .field-content {
-  height: 500px;
+  height: 400px;
   overflow: hidden; }
   @media (max-width: 791px) {
     .view-homepage-banner .field-content {

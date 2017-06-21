@@ -57,6 +57,7 @@ body.navbar-administration {
     .header__logo-image {
         padding-top: 10px;
         padding-left: 5px;
+        padding-bottom: 5px;
         max-width: 310px;
         image-rendering: -webkit-optimize-contrast;
         @include to(desktop-mid) {
@@ -346,7 +347,7 @@ body.not-front.node-type-project{
 
 .view-homepage-banner {
     .field-content {
-        height: 500px;
+        height: 400px;
         overflow: hidden;
         @include to(tablet-p){
             height: 350px !important;
