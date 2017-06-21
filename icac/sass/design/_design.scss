@@ -1011,10 +1011,10 @@
                         text-align: center;
                         margin-left: 50%;
                         transform: translateX(-50%);
-                        @include from(tablet-l) {
-                            @include column(1/4, $gutter: 1, $cycle: 4);
-                            text-align: left;
-                        }
+                        // @include from(tablet-l) {
+                        //     @include column(1/4, $gutter: 1, $cycle: 4);
+                        //     text-align: left;
+                        // }
                         a {
                             color: #ffffff;
                             text-align: center !important;
