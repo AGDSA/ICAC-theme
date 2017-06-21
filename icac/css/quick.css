@@ -1,0 +1,9 @@
+.page-bottom-wrapper .region-bottom #block-menu-menu-footer-sub-menu li {
+    text-align: center;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.page-bottom-wrapper .region-bottom #block-menu-menu-footer-sub-menu li a:hover {
+    color: #eaeaea;
+}
